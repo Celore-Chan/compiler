@@ -4,6 +4,27 @@
 2. **语法分析器 + 语义翻译器**：将Token流解析并生成四元式中间代码
 3. **目标代码生成器**：将四元式翻译为x86汇编风格目标代码
 
+## Highlights
+
+- Hand-written compiler (No Flex/Bison)
+- Canonical LR(1) Parser
+- Syntax-directed Translation
+- Quadruple IR
+- Register Allocation
+- x86-style Target Code Generation
+
+## Statistics
+
+26 Token Types
+
+65 Grammar Productions
+
+150+ LR(1) States
+
+7 Language Constructs
+
+14 Target Instructions
+
 ## 整体架构
 ```
 源代码 (C子集)
